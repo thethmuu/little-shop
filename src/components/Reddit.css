@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  font-family: system-ui;
+  margin: 16px 0;
+}
+
+.product-list {
+  list-style: none;
+}
+
+.product {
+  margin: 8px 0;
+  padding: 16px;
+  font-family: system-ui;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px gray;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-img {
+  width: 48px;
+}
+
+.product:hover {
+  background-color: aliceblue;
+}
